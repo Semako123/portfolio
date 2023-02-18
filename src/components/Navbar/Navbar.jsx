@@ -83,7 +83,7 @@ const Navbar = () => {
               <img src={github} alt="github" /> Github
             </div>
           </a>
-          <a href="#contact" target="_blank" rel="noreferrer">
+          <a href="#contact" rel="noreferrer">
             <div>
               <img src={mail} alt="contact" />
               Contact me
