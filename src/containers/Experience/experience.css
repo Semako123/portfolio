@@ -1,0 +1,69 @@
+.oases__experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+}
+
+.oases__experience-content {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 20px;
+    width: fit-content;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: -1px;
+    background: var(--color-gradient);
+}
+
+.stroke {
+    width: 1px;
+    height: 100%;
+    margin-top: -2px;
+    z-index: -1;
+    background: var(--color-gradient);
+    border-radius: 0 0 5px 5px;
+}
+
+.oases__experience-content_stroke {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.oases__experience-content img {
+    height: 25px;
+
+}
+
+.oases__experience-content_date {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.oases__experience-content p {
+    font-size: 13px;
+    color: #9e9e9e;
+}
+
+.oases__experience-content_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.right {
+    align-items: flex-start;
+}
+
+.oases__experience .oases__title {
+    margin-bottom: 40px;
+}

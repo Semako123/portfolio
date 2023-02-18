@@ -1,0 +1,10 @@
+.oases__title p {
+    font-weight: 500;
+    margin: 0;
+    font-size: 15px;
+    color: var(--color-blue-light);
+    padding: 10px;
+    border: 1px #5680cc68 solid;
+    border-radius: 10px;
+    width: fit-content;
+}

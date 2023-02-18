@@ -1,0 +1,22 @@
+.oases__footer {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(25, 25, 25);
+}
+
+.oases__footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.oases__footer a{
+    cursor: pointer;
+}
+
+.oases__footer-logo img{
+    height: 30px;
+}

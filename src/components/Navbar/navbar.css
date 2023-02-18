@@ -1,0 +1,61 @@
+.oases__navbar {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    color: #fff;
+    padding: 0px 50px;
+}
+
+.oases__navbar-logo h3 {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    color: #828282;
+    cursor: pointer;
+}
+
+.oases__navbar-logo h3 span {
+    color: #F2F2F2;
+}
+
+.oases__navbar-navlinks {
+    margin: auto;
+}
+
+.oases__navbar-navlinks li {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.oases__navbar-navlinks ul {
+    display: flex;
+    gap: 30px;
+}
+
+.oases__navbar-contact {
+    display: flex;
+    font-weight: 700;
+    font-size: 14px;
+    align-items: center;
+    gap: 25px;
+}
+
+.oases__navbar-contact div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.oases__navbar-contact img {
+    height: 15px;
+}
+
+.oases__navbar-contact a:last-child div{
+    border: 2px solid #9dc3ff;
+    border-radius: 5px;
+    padding: 10px 7px;
+}

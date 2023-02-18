@@ -1,0 +1,58 @@
+.oases__cta {
+    background: #4F4F4F;
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    width: 260px;
+    height: 65px;
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+
+.oases__cta-content,
+.oases__cta-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.oases__cta-content h6,
+.oases__cta-content p {
+    margin: 0;
+}
+
+.oases__cta-content h6 {
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.oases__cta-content p {
+    margin: 0;
+    text-decoration: underline;
+    font-size: 11px;
+    color: var(--color-blue-light);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.oases__cta-content_text {
+    width: 80%;
+}
+
+.oases__cta-image img {
+    width: 25px;
+}
+
+.oases__cta-image {
+    width: 20%;
+}
+
+.oases__cta-content {
+    width: 100%;
+}

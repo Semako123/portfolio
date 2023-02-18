@@ -1,0 +1,30 @@
+.oases__contact-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.oases__contact-card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: var(--color-card); */
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.oases__contact-card-image img{
+    height: 90%;
+}
+
+.oases__contact-card-title {
+    color: rgb(174, 174, 174);
+    text-transform: uppercase;
+}
+
+.oases__contact-card-subtitle {
+    color: rgb(238, 238, 238);
+    margin-top: 0;
+}

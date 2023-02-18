@@ -1,0 +1,140 @@
+.oases__header {
+    display: flex;  
+    justify-content: space-between;
+}
+
+.oases__header-content p {
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.oases__header-content h3 {
+    color: var(--color-blue);
+    font-family: var(--font-bold);
+    margin-top: 10px;
+    width: 60%;
+    font-weight: 900;
+    font-size: 55px;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+}
+
+.oases__header-content h4 {
+    font-weight: 700;
+    font-size: 32px;
+    margin: 10px 0px;
+    color: #E0E0E0;
+}
+
+.oases__header-content_points {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.oases__header-content_point {
+    display: flex;
+    color: #828282;
+    width: fit-content;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.oases__header-content_point div:first-child {
+    font-weight: 700;
+    margin-left: -30px;
+    font-size: 60px;
+}
+
+.oases__header-content_point div:nth-child(2) {
+    font-weight: 500;
+    font-size: 17px;
+    width: 60%;
+    line-height: 21px;
+}
+
+.oases__header-image {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.oases__header-image_frame {
+    position: relative;
+    background: #2D2D2D;
+    padding: 50px;
+    box-shadow: 0px 5px 34px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 80%;
+    display: grid;
+    place-items: center;
+}
+
+.oases__header-image_frame img {
+    width: 200px;
+}
+
+.oases__header-image_icons {
+    position: absolute;
+    background-color: #333333;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.06);
+}
+
+.ico1 {
+    left: 14px;
+    bottom: 30px;
+}
+
+.ico2 {
+    right: 40px;
+    bottom: 30px;
+}
+
+.ico3 {
+    right: 10px;
+    top: 50px;
+}
+
+.ico1 img {
+    width: 55px;
+}
+
+.ico2 img,
+.ico3 img {
+    width: 25px;
+}
+
+.c1,
+.c2,
+.c3 {
+    position: absolute;
+}
+
+.c1 {
+    top: 10px;
+    right: 0;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #4F4F4F;
+}
+
+.c2 {
+    top: 20px;
+    left: 0;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #BDBDBD;
+
+}
+
+.c3 {
+    bottom: 10px;
+    right: 0;
+    padding: 19px;
+    border-radius: 50%;
+    background-color: #222222;
+}
