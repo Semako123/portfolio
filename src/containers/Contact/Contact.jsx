@@ -68,13 +68,9 @@ const Contact = () => {
             animateIn="animate__zoomIn"
             animateOut="animate__fadeOut"
             delay={500}
+            key={x.link}
           >
-            <ContactCard
-              sub_title={x.sub_title}
-              link={x.link}
-              key={x.link}
-              img={x.img}
-            >
+            <ContactCard sub_title={x.sub_title} link={x.link} img={x.img}>
               {x.title}
             </ContactCard>
           </AnimationOnScroll>

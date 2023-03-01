@@ -1,19 +1,22 @@
-.oases__contact{
+.oases__contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.oases__contact-cards{
+.oases__contact-cards {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+    align-items: center;
+    justify-content: center;
 }
 
-.oases__contact-text{
+.oases__contact-text {
     color: #e2e2e2;
     letter-spacing: 0.04em;
     margin-bottom: 50px;
     font-weight: 100;
+    text-align: center;
 }

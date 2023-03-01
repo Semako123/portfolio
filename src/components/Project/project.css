@@ -118,3 +118,45 @@
     font-weight: 300;
     color: rgb(193, 193, 193);
 }
+
+@media screen and (max-width:1100px) {
+    .oases__project {
+        width: 450px;
+        height: 310px;
+    }
+
+    .oases__project-cta h4 {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .oases__project {
+        width: 400px;
+        height: 300px;
+    }
+
+    .oases__project-image {
+        height: 80%;
+    }
+
+    .oases__project-cta {
+        height: 20%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .oases__project {
+        width: 340px;
+        height: 260px;
+    }
+    .oases__project-cta h4{
+        font-size: 17px;
+        margin-right: 20px;
+    }
+    .oases__project-cta button{
+        width: 70px;
+        height: 30px;
+        font-size: 12px
+    }
+}

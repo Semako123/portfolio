@@ -46,7 +46,7 @@ const Experience = () => {
                   animateIn="animate__fadeInUp"
                   animateOut="animate__fadeOut"
                 >
-                  <div className="oases__experience-content_text">
+                  <div className="oases__experience-content_text left">
                     {x.title}
                     <p>{x.company}</p>
                     <div className="oases__experience-content_date">

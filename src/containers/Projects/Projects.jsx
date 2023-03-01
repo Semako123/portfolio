@@ -11,6 +11,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const Projects = () => {
+  const width = window.innerWidth;
+
   return (
     <div className="oases__projects section__padding" id="projects">
       <AnimationOnScroll
@@ -19,13 +21,16 @@ const Projects = () => {
       >
         <Title>Projects ( )</Title>
       </AnimationOnScroll>
-      <AnimationOnScroll animateIn="animate__fadeInUp" animateOut="animate__fadeOut">
+      <AnimationOnScroll
+        animateIn="animate__fadeInUp"
+        animateOut="animate__fadeOut"
+      >
         <div className="oases__projects-cards">
           <Swiper
             modules={[Keyboard, Autoplay, Pagination, EffectFade, Navigation]}
             navigation={true}
-            slidesPerView={2}
-            spaceBetween={-50}
+            slidesPerView={width < 950 ? 1 : 2}
+            spaceBetween={width > 500 ? -50 : 10}
             loop={true}
             pagination={{
               clickable: true,

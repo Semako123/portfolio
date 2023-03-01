@@ -24,28 +24,34 @@ const Navbar = () => {
           <AnimationOnScroll
             animateIn="animate__fadeInLeft"
             animateOut="animate__fadeOut"
-            offset={40}
+            offset={10}
           >
             <li>
-              <a href="#about">About</a>
+              <a href="#about" id="about_link">
+                About
+              </a>
             </li>
           </AnimationOnScroll>
           <AnimationOnScroll
             animateIn="animate__fadeInLeft"
             animateOut="animate__fadeOut"
-            offset={40}
+            offset={10}
           >
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills" id="skills_link">
+                Skills
+              </a>
             </li>
           </AnimationOnScroll>
           <AnimationOnScroll
             animateIn="animate__fadeInLeft"
             animateOut="animate__fadeOut"
-            offset={40}
+            offset={10}
           >
             <li>
-              <a href="#projects">Projects</a>
+              <a href="#projects" id="projects_link">
+                Projects
+              </a>
             </li>
           </AnimationOnScroll>
         </ul>
@@ -54,7 +60,7 @@ const Navbar = () => {
         <AnimationOnScroll
           animateIn="animate__fadeInLeft"
           animateOut="animate__fadeOut"
-          offset={40}
+          offset={10}
         >
           <a
             href="https://www.linkedin.com/in/semako-zosu/"
@@ -62,7 +68,7 @@ const Navbar = () => {
             rel="noreferrer"
           >
             <div>
-              <img src={linkedIn} alt="linkedIn" /> LinkedIn
+              <img src={linkedIn} alt="linkedIn" /> <p>LinkedIn</p>
             </div>
           </a>
           <a
@@ -71,7 +77,7 @@ const Navbar = () => {
             rel="noreferrer"
           >
             <div>
-              <img src={twitter} alt="twitter" /> Twitter
+              <img src={twitter} alt="twitter" /> <p>Twitter</p>
             </div>
           </a>
           <a
@@ -80,10 +86,10 @@ const Navbar = () => {
             rel="noreferrer"
           >
             <div>
-              <img src={github} alt="github" /> Github
+              <img src={github} alt="github" /> <p> Github</p>
             </div>
           </a>
-          <a href="#contact" rel="noreferrer">
+          <a href="#contact" rel="noreferrer" id="contact_link">
             <div>
               <img src={mail} alt="contact" />
               Contact me

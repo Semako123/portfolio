@@ -54,8 +54,35 @@
     height: 15px;
 }
 
-.oases__navbar-contact a:last-child div{
+.oases__navbar-contact a:last-child div {
     border: 2px solid #9dc3ff;
     border-radius: 5px;
     padding: 10px 7px;
+}
+
+@media screen and (max-width: 900px) {
+
+    .oases__navbar-navlinks,
+    #contact_link {
+        display: none;
+    }
+
+    .oases__navbar-contact {
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .oases__navbar-logo h3 {
+        font-size: 15px;
+    }
+
+    .oases__navbar-contact a p {
+        display: none;
+    }
+
+    .oases__navbar-contact a img {
+        width: 20px;
+        height: 20px;
+    }
 }

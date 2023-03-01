@@ -1,5 +1,5 @@
 html {
-  width: 100%;
+  width: 100% ;
   overflow-x: hidden;
   background: var(--color-background);
   scroll-behavior: smooth !important;
@@ -9,6 +9,7 @@ body {
   margin: 0;
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
   font-family: var(--font-regular);
 }
 
@@ -22,11 +23,10 @@ a {
 }
 
 .swiper {
-  width: 94vw !important;
+  width: 97vw !important;
 }
 
 .swiper-slide {
-  margin: 5px;
   display: flex !important;
   justify-content: center;
 }
@@ -34,7 +34,6 @@ a {
 .swiper-pagination-horizontal {
   height: 50px;
   display: flex;
-  width: 500px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -167,6 +166,12 @@ a {
     -webkit-transform: scale(2.2);
     transform: scale(2.2);
     opacity: 0;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .section__padding {
+    padding: 35px;
   }
 }
 

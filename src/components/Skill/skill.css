@@ -19,3 +19,18 @@
     margin: 0;
     font-size: 16px;
 }
+
+@media screen and (max-width:750px) {
+    .oases__skill{
+        width: 140px;
+        height: 40px;
+    }
+    
+    .oases__skill p{
+        font-size: 12px;
+    }
+
+    .oases__skill  img{
+        width: 20px;
+    }
+}

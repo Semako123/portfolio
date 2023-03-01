@@ -41,6 +41,7 @@ const Skills = () => {
           <AnimationOnScroll
             animateIn="animate__fadeInUp"
             animateOut="animate__fadeOut"
+            key={x.name}
           >
             <Skill img={x.img}>{x.name}</Skill>
           </AnimationOnScroll>

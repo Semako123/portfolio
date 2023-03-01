@@ -28,3 +28,21 @@
     color: rgb(238, 238, 238);
     margin-top: 0;
 }
+
+@media screen and (max-width:1000px) {
+    .oases__contact-card-image{
+        /* background: var(--color-card); */
+            width: 90px;
+            height: 90px;
+    }
+    
+}
+
+@media screen and (max-width:850px) {
+    .oases__contact-card-image {
+        /* background: var(--color-card); */
+        width: 70px;
+        height: 70px;
+    }
+
+}

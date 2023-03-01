@@ -11,6 +11,7 @@ const Header = () => {
           animateIn="animate__fadeInUp"
           animateOut="animate__fadeOut"
           animatePreScroll={true}
+          offset={10}
         >
           <p>Hello, I am</p>
         </AnimationOnScroll>
