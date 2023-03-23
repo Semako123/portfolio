@@ -28,3 +28,6 @@ export { default as whatsapp } from "./whatsapp.png";
 export { default as phone } from "./phone.png";
 export { default as twitter2 } from "./twitter3.png";
 export { default as linkedInG } from "./linkedInG.png";
+export { default as ts } from "./ts.png";
+export { default as tailwind } from "./tailwind.png";
+export { default as ghit } from "./ghit.png";
