@@ -31,3 +31,4 @@ export { default as linkedInG } from "./linkedInG.png";
 export { default as ts } from "./ts.png";
 export { default as tailwind } from "./tailwind.png";
 export { default as ghit } from "./ghit.png";
+export { default as spoon } from "./spoon.png";

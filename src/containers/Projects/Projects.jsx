@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.css";
 import { Title, Project } from "../../components";
-import { growfy, gpt, todo, omovies, ghit } from "../../assets/images";
+import { growfy, gpt, todo, omovies, ghit, spoon } from "../../assets/images";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Keyboard, Autoplay, Pagination, EffectFade, Navigation } from "swiper";
 import { AnimationOnScroll } from "react-animation-on-scroll";
@@ -90,7 +90,7 @@ const Projects = () => {
 						<SwiperSlide>
 							<Project
 								title="Spoonacular"
-								img={growfy}
+								img={spoon}
 								note="Spoonacular is a recipe web application where you can explore various recipes to become the chef of your kitchen"
 								tech="React, CSS, JavaScript, React-routers, RESTful API, Axios"
 								code_link="https://github.com/semako123/spoonacular"
