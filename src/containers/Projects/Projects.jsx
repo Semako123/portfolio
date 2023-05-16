@@ -1,7 +1,15 @@
 import React from "react";
 import "./projects.css";
 import { Title, Project } from "../../components";
-import { growfy, gpt, todo, omovies, ghit, spoon } from "../../assets/images";
+import {
+	growfy,
+	gpt,
+	todo,
+	omovies,
+	ghit,
+	spoon,
+	spotify,
+} from "../../assets/images";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Keyboard, Autoplay, Pagination, EffectFade, Navigation } from "swiper";
 import { AnimationOnScroll } from "react-animation-on-scroll";
@@ -45,6 +53,16 @@ const Projects = () => {
 								tech="React, CSS, JavaScript"
 								code_link="https://github.com/semako123/growfy"
 								live_link="https://oasesgrowfy.netlify.app"
+							/>
+						</SwiperSlide>
+						<SwiperSlide>
+							<Project
+								title="Spotify Dash"
+								img={spotify}
+								note="The Spotify Dashboard Application is a personalized tool that provides music lovers with insightful analytics, including music features, artist popularity comparison, top tracks insights, playlist and podcast analysis, and the ability to customize the viewing experience with light and dark themes.s"
+								tech="React, TailwindCSS, Typescript, Redux, React-Router"
+								code_link="https://github.com/semako123/odash"
+								live_link="https://spotifydash.netlify.app"
 							/>
 						</SwiperSlide>
 						<SwiperSlide>
