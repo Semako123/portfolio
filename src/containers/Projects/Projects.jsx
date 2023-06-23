@@ -34,7 +34,6 @@ const Projects = () => {
 				<div className="oases__projects-cards">
 					<Swiper
 						modules={[Keyboard, Autoplay, Pagination, EffectFade, Navigation]}
-						navigation={true}
 						slidesPerView={width < 950 ? 1 : 2}
 						spaceBetween={width > 500 ? -50 : 10}
 						loop={true}
@@ -42,8 +41,7 @@ const Projects = () => {
 							clickable: true,
 						}}
 						autoplay={{
-							delay: 10000,
-							disableOnInteraction: true,
+							delay: 1200,
 						}}>
 						<SwiperSlide>
 							<Project

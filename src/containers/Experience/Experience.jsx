@@ -5,29 +5,29 @@ import { calendar } from "../../assets/images";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 const Experience = () => {
   const expList = [
-    {
-      title: "Front End Intern",
-      company: "IBTS",
-      date: "2020",
-    },
-    {
-      title: "Front End Developer",
-      company: "GHIT",
-      date: "2021-2022",
-      right: true,
-    },
-    {
-      title: "Introduction to Computer Science (CS50)",
-      company: "Harvard University",
-      date: "2022",
-    },
-    {
-      title: "Front End Developer",
-      company: "OASES.co",
-      date: "2022-present",
-      right: true,
-    },
-  ];
+		{
+			title: "Software Developer (Intern)",
+			company: "IBTS 321",
+			date: "2019",
+		},
+		{
+			title: "Engineering Specialist",
+			company: "GHIT",
+			date: "2021",
+			right: true,
+		},
+		{
+			title: "Introduction to Computer Science (CS50)",
+			company: "Harvard University",
+			date: "2022",
+		},
+		{
+			title: "Software Engineer",
+			company: "GHIT",
+			date: "2022",
+			right: true,
+		},
+	];
   return (
     <div className="section__padding oases__experience">
       <AnimationOnScroll

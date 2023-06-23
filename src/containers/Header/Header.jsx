@@ -30,7 +30,7 @@ const Header = () => {
 						animateIn="animate__fadeInLeft"
 						animateOut="animate__fadeOut">
 						<div className="oases__header-content_point">
-							<div>2</div>
+							<div>2+</div>
 							<div>YEARS OF EXPERIENCE</div>
 						</div>
 					</AnimationOnScroll>

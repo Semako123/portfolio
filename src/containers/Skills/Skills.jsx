@@ -15,24 +15,37 @@ import {
 	redux_ico,
 	tailwind,
 	ts,
+	md,
+	SQL,
+	MUI,
+	fb,
+	next,
+	exp,
 } from "../../assets/images";
 
 const Skills = () => {
 	const skillsList = [
-		{ name: "React", img: react_ico },
-		{ name: "Nodejs", img: node_ico },
 		{ name: "JavaScript", img: js_ico },
 		{ name: "TypeScript", img: ts },
+		{ name: "Python", img: python_ico },
+		{ name: "React", img: react_ico },
+		{ name: "Next.js", img: next },
+		{ name: "Express", img: exp },
+		{ name: "MongoDB", img: md },
+		{ name: "Firebase", img: fb },
+		{ name: "SQL", img: SQL },
+		{ name: "MaterialUI", img: MUI },
+		{ name: "Nodejs", img: node_ico },
 		{ name: "HTML 5", img: html_ico },
 		{ name: "Git", img: git_ico },
 		{ name: "CSS", img: css_ico },
-		{ name: "Python", img: python_ico },
 		{ name: "Redux", img: redux_ico },
 		{ name: "Bootstrap", img: boot_ico },
 		{ name: "TailwindCss", img: tailwind },
+		{ name: "Linux", img: linux_ico },
 	];
 	return (
-		<div className="oases__skills section__padding" id="skills">
+		<div className="oases__skills" id="skills">
 			<AnimationOnScroll
 				animateIn="animate__fadeInUp"
 				animateOut="animate__fadeOut">
